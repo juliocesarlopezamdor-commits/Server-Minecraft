@@ -1,0 +1,107 @@
+
+["Sun Production"]
+	#How long it takes (In Ticks) for Sun to fall from the sky. Default: 1200
+	"Natural Sun Spawn Rate" = 1200.0
+	#How long it takes (In Ticks) for Sunflowers to produce Sun. Default: 1200
+	"Sunflower Sun Spawn Rate" = 1200.0
+	#How long it takes (In Ticks) for Sun-Shrooms to produce Sun. Default: 1200
+	"Sun-Shroom Sun Spawn Rate" = 1200.0
+	#How long it takes (In Ticks) for Twin Sunflowers to produce Sun. Default: 1200
+	"Twin Sunflower Sun Spawn Rate" = 1200.0
+	#How much Sun gives the Player. Defualt: 25
+	"Sun Value" = 25.0
+	#How much Small Sun gives the Player. Defualt: 10
+	"Small Sun Value + 5" = 10.0
+
+["Zombie Spawn"]
+	#The Minimum amount of Ticks for a Grave Stone to spawn a random Zombie. Default: 300
+	"Grave Stone Zombie Spawn Min" = 300.0
+	#The Maximum amount of Ticks for a Grave Stone to spawn a random Zombie. Default: 600
+	"Grave Stone Zombie Spawn Max" = 600.0
+	#How long (In Ticks) it takes for Zomboni Ice to Melt. Default: 6000
+	"Zomboni Ice Melt Time" = 6000.0
+	#If Zomboni will make Ice. Default: True
+	"Zomboni Makes Ice" = true
+	#How far Zombies will spawn from the player during waves. Default: 40
+	"Zombie Spawn Distance" = 40.0
+	#How far Grave Stones will spawn from the player during waves. Default: 20
+	"Gravestone Spawn Distance" = 20.0
+	#Will natural zombies spawn around the player? Default: True
+	"Natural Zombies Spawn" = true
+	#Will natural gravestones spawn around the player? Default: False
+	"Natural Gravestones Spawn" = true
+
+	["Zombie Spawn"."Enable/Disable Natural Zombie Spawns"]
+		#Allow this zombie to naturally spawn? Default: True
+		"Basic Zombie" = true
+		#Allow this zombie to naturally spawn? Default: True
+		"Conehead Zombie" = true
+		#Allow this zombie to naturally spawn? Default: True
+		"Buckethead Zombie" = true
+		#Allow this zombie to naturally spawn? Default: False
+		"Pole Vaulting Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Newspaper Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Screendoor Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Football Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Dancing Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Snorkel Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Dolphin Rider Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		Zomboni = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Digger Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Jack In The Box Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Balloon Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Pogo Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Bungee Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Catapult Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Ladder Zombie" = false
+		#Allow this zombie to naturally spawn? Default: False
+		Gargantuar = false
+		#Allow this zombie to naturally spawn? Default: False
+		"Yeti Zombie" = false
+
+[Miscellaneous]
+	#How long it takes (In Ticks) for Money to be dropped from Marigold. Default: 4800
+	"Marigold Money Drop Rate" = 4800.0
+	#How long (In Ticks) before Sun-Shrooms grow up. Default: 4800
+	"Sun-Shroom Growth Timer" = 4800.0
+	#How long (In Ticks) before Craters despawn. Default: 3600
+	"Crater Duration" = 3600.0
+	#If Seed Packets have a cooldown like in the original game. Default: True
+	"Seed Packet Cooldowns" = true
+	#If Seed Packets will be used or if they can be used infinitly and not go away. Default: False
+	"Infinite Seed Packets" = false
+	#If Plants are unlocked per wave completion similar to the OG Game. Default: True
+	"Progressive Plants" = true
+	#This was for debugging. Default: False
+	Debug = false
+	#Allows other mobs to attack plants WARNING: THIS INCLUDES CREEPERS AND POSSIBLY OTHER EXPLOSIVE MOBS WHICH CAN INSTANTLY KILL PLANTS LIKE JACK IN THE BOX ZOMBIES. Default: True
+	"Do Vanilla/Modded Mobs Attack" = true
+	#Allows the OST to play for certain events/conditions. Default: True
+	"Play Music" = true
+	#The chance of Zombies dropping seeds when killed. Default: 0.01
+	"Zombie Seeds Droprate" = 0.01
+	#The chance of Zombies dropping fertilizer when killed. Default: 0.05
+	"Fertilizer Droprate" = 0.05
+	#The chance of Zombies dropping silver coins when killed. Default: 0.02
+	"Silver Coin Droprate" = 0.02
+	#The chance of Zombies dropping gold coins when killed. Default: 0.01
+	"Gold Coin Droprate" = 0.01
+	#The chance of Zombies dropping gems when killed. Default: 0.008
+	"Gem Droprate" = 0.008
+	#Allows the placement of plants on anything instead of just grass and dirt blocks. Default: False
+	"Place Anywhere" = false
+
